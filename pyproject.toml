@@ -3,11 +3,11 @@ name = "lightweight-vit-skin-cancer-classification"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.10.9",
-    "numpy>=2.4.4",
+    "numpy<2",
     "pandas>=3.0.2",
     "pillow>=12.2.0",
     "scikit-learn>=1.8.0",
