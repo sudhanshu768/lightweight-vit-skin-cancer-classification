@@ -1,0 +1,28 @@
+
+HAM10000 Dataset Analysis Report
+
+Total Samples:
+10015
+
+Number of Classes:
+7
+
+Class Distribution:
+
+dx
+nv       6705
+mel      1113
+bkl      1099
+bcc       514
+akiec     327
+vasc      142
+df        115
+
+Observations:
+- The dataset is highly imbalanced.
+- NV class dominates the dataset.
+- Melanoma samples are comparatively fewer.
+- Minority classes may lead to biased learning behavior.
+
+Conclusion:
+The imbalance characteristics of HAM10000 justify the use of imbalance-aware learning methods such as Weighted Cross Entropy and Class-Balanced Loss.
