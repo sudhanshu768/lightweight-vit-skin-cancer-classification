@@ -1,0 +1,22 @@
+
+Attention Visualization Analysis
+
+1. MobileViT Baseline CE
+- Produced broad and diffuse attention maps.
+- Attention spread across lesion and background regions.
+
+2. Weighted Cross Entropy
+- Generated weak and unstable activation patterns.
+- Lesion localization was less interpretable.
+
+3. CB Loss
+- Produced stronger lesion-focused activation.
+- Improved localization around clinically relevant regions.
+
+4. TinyViT
+- Generated sharp and compact lesion attention.
+- Minimized irrelevant background activation.
+
+Conclusion
+Imbalance-aware learning and lightweight transformer architecture selection influence lesion localization behavior in melanoma classification.
+CB Loss improved lesion-centric attention patterns, while TinyViT demonstrated the sharpest localization behavior.
