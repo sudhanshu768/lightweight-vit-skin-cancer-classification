@@ -1,0 +1,15 @@
+
+Efficiency Analysis Report
+
+MobileViT
+Parameters: 4,942,119
+Average Inference Time: 16.59 ms
+
+TinyViT
+Parameters: 5,074,011
+Average Inference Time: 9.25 ms
+
+Observations:
+- Both models are lightweight transformer architectures.
+- TinyViT achieved competitive efficiency with slightly higher parameter count.
+- Lightweight ViTs are suitable for efficient medical image classification tasks.
