@@ -1,8 +1,7 @@
 [project]
 name = "lightweight-vit-skin-cancer-classification"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "Lightweight Vision Transformer models for imbalance-aware multiclass skin-lesion classification on HAM10000."readme = "README.md"
 requires-python = ">=3.11,<3.13"
 dependencies = [
     "ipykernel>=7.2.0",
